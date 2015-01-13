@@ -1,7 +1,7 @@
 body {
   font-family: "Comic Sans", Helvetica, Arial;
-  background-color: #FFD700;
-  color: #ff0000;
+  background-color: #FF0000;
+  color: #ffD700;
 }
 
 #container {
@@ -15,7 +15,7 @@ h2 {
 
 #error {
   display: none;
-  color:  #DAAB00;
+  color:  #FFFFFF;
   border: 1px solid #ffffff;
   padding: 5px;
   margin: 5px;
