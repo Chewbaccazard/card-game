@@ -160,8 +160,8 @@ if (Array.indexOf === undefined) {
     var intRegex = /^\d+$/;
 
     if (a.rank == b.rank)       return 0;
-    if (a.rank == "N")        return -1;
-    if (b.rank == "N")        return 1;
+    if (a.rank == "N")        return 1;
+    if (b.rank == "N")        return -1;
     if (a.rank == "A")        return 1;
     if (b.rank == "A")        return -1;
     if (!isNaN(a.rank - b.rank))    return a.rank - b.rank;
