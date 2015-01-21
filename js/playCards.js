@@ -1,7 +1,14 @@
 $(document).ready(function(){
     var cardDeck = $("#cardDeck").playingCards();
     cardDeck.spread(); // show it
-
+    
+ var showHand = function(){
+        var el = $('#yourHand')
+        el.html('');
+        for(var i=0;i<hand.length;i++){
+            el.append(hand[i].getHTML());
+        }
+    }
     var hand = [];
     var showError = function(msg){
         $('#error').html(msg).show();
