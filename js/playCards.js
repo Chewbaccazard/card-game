@@ -3,7 +3,7 @@ $(document).ready(function(){
     cardDeck.spread(); // show it
     
  var showHand = function(){
-        var el = $('#yourHand')
+        var el = $('#otherHand')
         el.html('');
         for(var i=0;i<hand.length;i++){
             el.append(hand[i].getHTML());
