@@ -22,6 +22,26 @@ $(document).ready(function(){
         for(var i=0;i<hand.length;i++){
             el.append(hand[i].getHTML());
         }
+         var showHand = function(){
+        var el = $('#otherHand')
+        el.html('');
+        for(var i=0;i<hand.length;i++){
+            el.append(hand[i].getHTML());
+        }
+    }
+    var hand = [];
+    var showError = function(msg){
+        $('#error').html(msg).show();
+        setTimeout(function(){
+            $('#error').fadeOut('slow');
+        },3000);
+    }
+    var showHand = function(){
+        var el = $('#Hand2')
+        el.html('');
+        for(var i=0;i<hand.length;i++){
+            el.append(hand[i].getHTML());
+        }
     }
     var doShuffle = function(){
         cardDeck.shuffle();
