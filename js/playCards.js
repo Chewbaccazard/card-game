@@ -23,7 +23,7 @@ $(document).ready(function(){
             el.append(hand[i].getHTML());
         }
          var showHand = function(){
-        var el = $('#Hand2')
+        var el = $('#yourHand')
         el.html('');
         for(var i=0;i<hand.length;i++){
             el.append(hand[i].getHTML());
@@ -37,7 +37,7 @@ $(document).ready(function(){
         },3000);
     }
     var showHand = function(){
-        var el = $('#Hand2')
+        var el = $('#yourHand')
         el.html('');
         for(var i=0;i<hand.length;i++){
             el.append(hand[i].getHTML());
