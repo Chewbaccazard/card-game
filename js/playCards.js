@@ -23,7 +23,7 @@ $(document).ready(function(){
             el.append(hand[i].getHTML());
         }
          var showHand = function(){
-        var el = $('#otherHand')
+        var el = $('#Hand2')
         el.html('');
         for(var i=0;i<hand.length;i++){
             el.append(hand[i].getHTML());
