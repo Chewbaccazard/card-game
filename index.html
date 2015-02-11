@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Jaegerbombastic CACACA-Card Game</title>
+  <title>Thomas' Card Game</title>
   <link rel="stylesheet" type="text/css" href="css/playingCards.ui.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
   <div id="container">
     <div id="error"></div>
-
+<div><h2>7</h2></div>
     <div>
       <h2>Your Hand</h2>
       <input type="button" id="draw" value="draw a card" />
@@ -16,31 +16,26 @@
       <br><br>
       <div id="yourHand"></div>
     </div>
-    
-   <div>
-      <h2>Opponent's Hand</h2>
+    <div>
+      <h2>Computer Hand</h2>
       <input type="button" id="draw1" value="draw a card" />
       <input type="button" id="addCard1" value="add drawn card back" />
       <br><br>
-      <div id="Hand1"></div>
+      <div id="CompHand"></div>
     </div>
     
     <div>
       <h2><br>Card Deck</h2>
-      <input type="button" id="shuffler" value="Shuffle" />
-      <input type="button" id="orderByRank" value="Order by rank" />
-      <input type="button" id="orderBySuit" value="Order by suit" />
-      <input type="button" id="deletecards" value="Delete cards" />
+      <input type="button" id="shuffler" value="shuffle" />
+      <input type="button" id="orderByRank" value="order by rank" />
+      <input type="button" id="orderBySuit" value="order by suit" />
       <br><br>
       <div id="cardDeck"></div>
     </div>
-
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script type="text/javascript" src="js/playingCards.js"></script>
     <script type="text/javascript" src="js/playingCards.ui.js"></script>
     <script type="text/javascript" src="js/playCards.js"></script>
-
   </div>
 </body>
 </html>
-
